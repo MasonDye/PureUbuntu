@@ -1,3 +1,4 @@
+ ![PureUbuntuLogo](https://raw.githubusercontent.com/MasonDye/PureUbuntu/main/pterodactyl-ubuntu.png) 
 # PureUbuntu
 Run Linux Ubuntu on pterodactyl &amp; Wings &amp; Docker
 
