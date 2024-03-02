@@ -41,5 +41,7 @@ Edit line : `ReadonlyRootfs: true, --> ReadonlyRootfs: false,`
 Add line : `Privileged:   true,`
 
 - **Step 4 - Build**
+  ```
   go build
+  ```
   
