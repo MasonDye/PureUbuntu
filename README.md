@@ -1,5 +1,5 @@
  ![PureUbuntuLogo](https://raw.githubusercontent.com/MasonDye/PureUbuntu/main/pterodactyl-ubuntu.png) 
-# PureUbuntu
+# PureUbuntu - Egg
 Run Linux Ubuntu on pterodactyl &amp; Wings &amp; Docker
 
 This is a complete implementation that grants full root access to Linux servers on Pterodactyl using this Egg.
