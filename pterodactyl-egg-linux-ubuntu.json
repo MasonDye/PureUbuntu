@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2023-05-18T19:39:50+03:00",
+    "name": "Pure Open Linux Ubuntu V5",
+    "author": "AlmondNetwork Inc.",
+    "description": "Pure Open Linux Ubuntu Lite V5",
+    "features": null,
+    "docker_images": {
+        "docker.io\/masondye\/pterodactyl-egg-open-linux-ubuntu-lite:v5": "docker.io\/masondye\/pterodactyl-egg-open-linux-ubuntu-lite:v5"
+    },
+    "file_denylist": [],
+    "startup": ".\/start.sh",
+    "config": {
+        "files": "{\r\n    \"server.config\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"internalip\": \"0.0.0.0\",\r\n            \"port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
+        "startup": "{\r\n    \"done\": \"Server has started\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
+            "container": "docker.io\/masondye\/pterodactyl-egg-open-linux-ubuntu:v5",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
